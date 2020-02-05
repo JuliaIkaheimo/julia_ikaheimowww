@@ -1,0 +1,80 @@
+
+body{
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box{
+    
+    width:100%;
+    background-color: rgb(32, 32, 80);
+    min-height: 300px;
+   
+}
+
+header{
+   
+    font-size: 100px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 75px;
+    
+}
+
+.flexContainer {
+    display:flex;
+    background-color: rgb(31, 31, 31);
+    align-content: space-between;
+    flex-wrap:wrap;
+    text-align: center;
+    
+
+}
+
+.flexContainer > div, .flexColumn > div {
+    background-color: rgb(212, 199, 201);
+    margin:10px;
+    text-align:center;
+    line-height:50px;
+    font-size:30px;
+    
+    width:fit-content;
+
+}
+
+.navibar{
+
+    float:left;
+    background-color: rgb(255, 228, 196);
+    width:30%;
+    height:400px;
+    
+
+}
+
+.article{
+
+    float: right;
+    background-color: rgb(128, 128, 128);
+    width:70%;
+    height:400px;
+    overflow: scroll;
+   
+}
+
+footer{
+    
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    
+   
+   
+    background-color: rgb(10, 10, 10);
+    
+
+}
+
+p, h1{
+    padding: 20px;
+}
